@@ -1,0 +1,115 @@
+.navbar{
+    height: 100px;
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+    margin-right: 30px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.page1{
+    height: 700px;
+    background-color:bisque;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.kotak{
+    height: 300px;
+    width: 300px;
+    background-color: cornflowerblue;
+}
+.page2{
+    height: 300px;
+    background-color: coral;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 500px;
+}
+.page3{
+    height: 300px;
+    background-color:darksalmon;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 200px;
+}
+.lingkaran{
+    height: 300px;
+    width: 300px;
+    background-color: cornflowerblue;
+    border-radius: 1000px;
+}
+.page4 {
+    height: 700px;
+    background-color: lightcoral;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+   
+
+}
+.page4 .baris1{
+    display: flex;
+    margin-bottom: 10px;
+}
+.page4 .baris1 .kotak{
+    margin-right: 10px;
+}
+.page4 .baris2{
+    display: flex;
+}
+.page4 .baris2 .kotak{
+    margin-right: 10px;
+}
+
+.page5{
+    height: 300px;
+    background-color:rgb(240, 127, 89);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 500px;
+}
+.page5 .kotak{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    justify-content:space-between;
+}
+.page5 .kotak .kotakkecil{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    padding: 30px;
+    display: flex;
+    justify-content:space-between;
+}
+.page5 .kotak .kotakkecil .kotakkecilkali{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    
+}
+.page6{
+    height: 200px;
+    background-color:rgb(95, 27, 4);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 200px;
+}
